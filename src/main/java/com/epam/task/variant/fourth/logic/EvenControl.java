@@ -1,7 +1,6 @@
 package com.epam.task.variant.fourth.logic;
 
 import com.epam.task.variant.fourth.exception.WrongNumberOfElementsException;
-
 import java.util.List;
 
 public class EvenControl {

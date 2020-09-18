@@ -1,6 +1,5 @@
 package com.epam.task.variant.fourth;
 
-import com.epam.task.variant.fourth.data.ConsoleDataAcquirer;
 import com.epam.task.variant.fourth.data.DataAcquirer;
 import com.epam.task.variant.fourth.data.DataFactory;
 import com.epam.task.variant.fourth.data.DataType;
@@ -42,5 +41,6 @@ public class Main {
             e.printStackTrace();
         }
         printer.print(resultFromFile);
+
     }
 }

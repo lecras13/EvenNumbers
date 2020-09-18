@@ -17,7 +17,7 @@ public class FileDataAcquirer implements DataAcquirer {
             BufferedReader reader = new BufferedReader(new FileReader("E:\\EvenNumbers\\src\\main\\resources\\FileDataAcquirer.txt"));
             String[] str = (reader.readLine()).split(" ");
             for (String number : str) {
-                list.add(Integer.parseInt(number));
+                list.add(Integer.valueOf(number));
             }
         } catch (FileNotFoundException e) {
             e.printStackTrace();

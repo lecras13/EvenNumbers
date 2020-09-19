@@ -1,5 +1,7 @@
 package com.epam.task.variant.fourth.data;
 
+import com.epam.task.variant.fourth.enums.DataType;
+
 public class DataFactory {
     public DataAcquirer getDateAcquirer(DataType type){
         DataAcquirer toReturn = null;

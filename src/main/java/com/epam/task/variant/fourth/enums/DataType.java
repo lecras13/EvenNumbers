@@ -1,4 +1,4 @@
-package com.epam.task.variant.fourth.data;
+package com.epam.task.variant.fourth.enums;
 
 public enum DataType {
     CONSOLE,

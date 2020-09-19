@@ -2,7 +2,7 @@ package com.epam.task.variant.fourth;
 
 import com.epam.task.variant.fourth.data.DataAcquirer;
 import com.epam.task.variant.fourth.data.DataFactory;
-import com.epam.task.variant.fourth.data.DataType;
+import com.epam.task.variant.fourth.enums.DataType;
 import com.epam.task.variant.fourth.exception.WrongNumberOfElementsException;
 import com.epam.task.variant.fourth.logic.EvenControl;
 import com.epam.task.variant.fourth.view.ConsoleResultPrinter;

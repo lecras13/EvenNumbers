@@ -7,7 +7,7 @@ public class EvenControl {
     public boolean moreThanTwoEven(List<Integer> numbers) throws WrongNumberOfElementsException {
         if (numbers.size() < 4) {
             throw new WrongNumberOfElementsException();
-        }else {
+        } else {
             int count = 0;
             for (Integer number : numbers) {
                 if (number % 2 == 0) {

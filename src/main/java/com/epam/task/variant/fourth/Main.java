@@ -31,7 +31,7 @@ public class Main {
 
 
 
-
+/*
         DataAcquirer file = factory.getDateAcquirer(DataType.FILE);
         List<Integer> numbersFromFile = file.getNumbers();
         boolean resultFromFile= Boolean.parseBoolean(null);
@@ -40,7 +40,7 @@ public class Main {
         }catch (WrongNumberOfElementsException e){
             e.printStackTrace();
         }
-        printer.print(resultFromFile);
+        printer.print(resultFromFile);*/
 
     }
 }

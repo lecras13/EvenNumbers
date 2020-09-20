@@ -1,5 +1,12 @@
 package com.epam.task.variant.fourth;
 
+/**
+ * Variant 4
+ * Write a program that prints the value true if the specified statement is "true",
+ * and "false" otherwise: among the given integers A, B, C, D there are at least two even ones.
+ * @author Raman Aleksandrov
+ */
+
 import com.epam.task.variant.fourth.data.DataAcquirer;
 import com.epam.task.variant.fourth.data.DataFactory;
 import com.epam.task.variant.fourth.data.enums.DataType;
